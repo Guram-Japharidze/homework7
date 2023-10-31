@@ -166,3 +166,44 @@ h4 {
     line-height: 24px;
 }
 
+/* article */
+.main_article {
+    display: flex;
+    width: calc(1080 / 1440 * 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 296px;
+    margin: auto;
+}
+
+h2 {
+    color: #372D23;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.article_p {
+    color: #855C52;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.button2 {
+    display: flex;
+    height: 52px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    background: #ED6C30;
+    border: none;
+}
